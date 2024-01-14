@@ -117,11 +117,7 @@
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage'
- 'bio'
- 'job1'
- 'job2'
- 'job3';
+    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
@@ -141,7 +137,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #03cff3;
+  background: #66e42c;
   color: #0a0303;
   height: 100%;
   margin: 0;
